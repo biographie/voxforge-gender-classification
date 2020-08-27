@@ -4,5 +4,5 @@ This repository contains two jupyter notebooks that set out to classify gender b
 
 **data_colection_feature_extraction.ipynb:**  In this notebook, data is is downloaded from the Voxforge website using beautiful soup and the requests library. Meta data such as the gender, age and dialect of the speaker is extracted. Further for the purpose of deep learning MFCC's are extracted for individual audio samples using the librosa library. Finally, some data exploration is carried out to explore the nature of the scraped data.
 
-**cnn_rnn.ipynb:** In the second notebook, a Convolutional Neural Network and a Recurrent Neural Network are explored to identify gender from audio. 
+**cnn_rnn.ipynb:** In the second notebook, a Convolutional Neural Network and a Recurrent Neural Network are explored to identify gender from audio.  There was trouble pushing the second notebook to github so here is a shareable colab link: https://colab.research.google.com/drive/1gq1lADFSzj6ah5MhZtpMKuDY6-fPbe5x?usp=sharing
 
